@@ -1,0 +1,274 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #242424;
+}
+*{
+    text-decoration: none;
+}
+.hero-sec{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+.nav{
+    background-color: rgb(247, 244, 237);
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    /* display: inline-block; */
+    padding: 15px 80px 15px 80px;
+    /* position: fixed; */
+    /* margin: 15px; */
+    
+
+}
+.logo img{
+    width: 135px;
+    height: 35px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    /* text-align:right */
+    /* justify-content: flex-end; */
+    /* padding-left: 150px; */
+    
+}
+.nav ul li{
+    display: inline;
+    /* gap: 10px; */
+    text-align: end;
+}
+.nav ul li a{
+    color: black;
+    font-size: 15px;
+}
+.nav ul li .btn{
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    
+}
+.get-off {
+    background-color: rgb(230, 240, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    /* position: fixed; */
+    /* margin-top: -20px; */
+    width: 100%;
+}
+.get-off span{
+    font-weight: 600;
+}
+.get-off p{
+    text-decoration: underline;
+}
+.section-1{
+    background-image: url('images/bg.png');
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:80vh;
+    /* height: 120vh; */
+    width: 100%;
+    padding-bottom: 150px;
+    /* margin-bottom: 100px; */
+    border: 1px solid black;
+}
+.cont-2{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 80px;
+    line-height: 90px;
+    
+}
+.cont-2 h1 {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: 400;
+}
+.cont-2 p{
+    font-family: sans-serif;
+    font-size: 25px;
+    line-height: 0px;
+}
+.cont-2 a{
+    color: white;
+}
+.cont-2 .btn-2{
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    padding: 13px 40px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    
+}
+.end ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.end ul li{
+    font-size: 13px;
+    font-weight: 200;
+}
+
+/* ---------------------about section--------------------------- */
+
+.nav-about{
+    display: flex;
+    background-color: #242424;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    border-bottom: 1px solid rgb(193, 167, 167);
+    
+}
+.logo-2{
+    width: 180px;
+    height: 30px;
+}
+.buttons{
+    
+    
+}
+.buttons{
+    
+    /* gap: 10px; */
+
+    
+    
+}
+.buttons a{
+    color: white;
+    /* gap: 10px; */
+}
+.btn{
+    /* padding-right: 10px; */
+    border: 1px solid;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-right: 10px;
+    font-size: 13px;
+    
+}
+.white{
+    background-color: aliceblue;
+    color: black;
+}
+.buttons .white{
+    color: #242424;
+}
+
+.cont2-about{
+    color: white;
+    width: 60%;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.cont2-about h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    font-weight: 100;
+}
+.cont2-about p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    line-height: 32px;
+}
+.cont2-about h3{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    padding-right: 30px;
+    /* background-color: rgb(80, 80, 80); */
+    
+}
+
+.bgwhite-con{
+    display: flex;
+    color: white;
+    /* display: inline-block; */
+    align-items: center;
+    justify-content: space-between;
+}
+.reading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 100%;
+    /* margin-bottom: 50px; */
+    margin-left: 0;
+
+    
+}
+/*.arrow{
+    width: 70px;
+
+}*/
+.arrow{
+    /* justify-content: flex-end; */
+    align-items: center;
+    margin-left: 650px;
+    /* width: 100%; */
+    font-size: 60px;
+    font-weight: 900;
+} 
+.reading h2{
+    font-size: 60px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 30px;
+}
+.reading:hover{
+    background-color: white;
+    color: black;
+}
+.footer-nav{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.footer-nav img{
+    width: 120px;
+    height: 30px;
+}
+.footer-nav ul{
+    list-style: none;
+    display: inline;
+    
+}
+.footer-nav ul li{
+    color: black;
+    font-size: 12px;
+    display: inline;
+    padding-right: 10px;
+    text-decoration: underline;
+}
